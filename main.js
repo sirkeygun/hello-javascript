@@ -1,42 +1,59 @@
+// functions
+// create a new function
+/* function fun () {
+  console.log('this is a function')
+} */
+// calling a function
+// fun();
 
- console.log('hey this works');
- //alert('hey this works')
+/* ----------------------------------------------------------------
+example
+]name  kinyua
+function return kinyua
+*/
 
-//document.getElementById('someText').innerHTML = age;
+// function greetings (yourName) {
+// var result = 'hello' + ' ' + yourName;  // using string concatenation
+// console.log(result);
+// }
 
+// var name = prompt('hello what is your name');
+// greetings(name);
 
- //prompt('hello, whats your name')
+// taking arguments with functions
+// adding two numbers together infunctions
 
- var b = 'smoothie';
- console.log(b);
+/* function sumNumber (num1, num2) {
+    var result = num1 + num2
+    console.log(result);
+} */
 
- var someNumber = '45';
- console.log(someNumber);
+// sumNumber(10, 9)
+// sumNumber('hello', ' kinyua')
 
- //var age = prompt('hello, whats your age');
- //document.getElementById('someText').innerHTML = age;
+/* while loops
 
- //numbers
-//increase the number
- var num1 = 9.57;
- num1++;
- console.log(num1);
+var num1 = 0;
 
+while (num1 < 1000) {
+    num1 +=1;
+    console.log(num1);
+} */
 
- //console.log(50*8)
+// for loops
+/* for (let num= 0; num < 100; num++) {
+    console.log(num);
+} */
 
- //decrease the number
- //someNumber--;
- //console.log(someNumber);
-
- //devide multiply*, remainders %
- //console.log(someNumber % 7)
-
- //invrement by any no.
- num1 += 7;
- console.log(num1);
-
- someNumber -= 7;
- console.log(someNumber);
- 
- 
+// datatypes
+/*
+let yourAge = 18; //number
+let yourName = 'kinyua'; // string
+let name = {firstname: 'kevin', lastname:'kinyua'};// object
+console.log(name);
+console.log(yourAge)
+let truth = false; // boolean
+let grocery = ['nyanya', 'kitunguu']; //array
+let random; // undefined
+let nothing = null; // value null
+*/
