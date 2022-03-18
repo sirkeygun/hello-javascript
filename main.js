@@ -57,3 +57,4 @@ let grocery = ['nyanya', 'kitunguu']; //array
 let random; // undefined
 let nothing = null; // value null
 */
+
