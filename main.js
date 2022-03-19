@@ -57,4 +57,46 @@ let grocery = ['nyanya', 'kitunguu']; //array
 let random; // undefined
 let nothing = null; // value null
 */
+// string in js
+/*
+let fruit = 'banana, mango, apple, kiwi';
+let moreFruit = 'banana\napple';
+
+console.log(fruit.length);
+console.log(fruit.indexOf('k'));
+console.log(fruit.slice(3, 6));
+console.log(fruit.replace('ban', '123'));
+console.log(fruit.toUpperCase(fruit));
+console.log(fruit.toLowerCase(fruit));
+console.log(fruit.charAt(3));
+console.log(fruit[3]);
+console.log(fruit.split(',')); // split by coma
+console.log(fruit.split('')); // split by character
+*/
+// arrays
+let fruits = ['banana', 'mango', 'apple', 'kiwi'];
+fruits = new Array ('banana', 'mango', 'apple', 'kiwi');
+
+console.log(fruits[3]); // access values at index 2nd
+fruits[0] = 'pear';
+console.log(fruits);
+
+for (let i = 0; i < fruits.length; i++) {
+    console.log(fruits[i]);
+}
+// arrays common methods
+console.log('to string/list', fruits.toString());
+console.log(fruits.join('-'));
+console.log(fruits.join('*'));
+console.log(fruits, fruits.pop(), fruits); // removes last item
+console.log(fruits, fruits.push('blackberries'), fruits); // adds
+console.log(fruits[4]);
+fruits[fruits.length] = 'new fruit';
+console.log(fruits);
+fruits.shift();
+console.log(fruits);
+fruits.unshift('ndizi');
+console.log(fruits);
+
+
 
