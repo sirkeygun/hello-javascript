@@ -120,7 +120,7 @@ console.log(emptyArray);
 
 // objects in javascript
 // dictionaries in python
-let student = {first: 'ngumo',
+/*let student = {first: 'ngumo',
                 last: 'kinyua',
                 age: 12,
                 height: 56,
@@ -149,7 +149,7 @@ if ((age>= 18) && (age<= 35)) {
     status = 'not my target demograph';
     console.log(status);
     alert('sorry! you are not within the target demograph')
-}
+} */
 
 // switch statements
 // differentiate between weekdays vs weekends
